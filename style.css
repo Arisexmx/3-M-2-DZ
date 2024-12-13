@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    margin-left: 20px;
+}
+.logo{
+    font-size: 33px;
+    font-weight: 500;
+}
+.logo span{
+    color: #FF6838;
+
+}
+.cotainer{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__list{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.nav_btn{
+    color: azure;
+    background-color: #FF6838;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+.nav_link{
+    color: #363853;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.nav_link:hover{
+    color: #ff6838;
+}
+.header_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 52px;
+}
+.img_main{
+    margin-left: 800px;
+}
+.header_text p{
+    width: 463px;
+    font-size: 20px;
+}
+
+.header_text .logo{
+    font-size: 66px;
+    font-weight: 500;
+    margin-bottom: 23px;
+}
+.header_text span{
+    color: #FF6838;
+}
+.header_text p{
+    font-size: 20px;
+    color: #363853;
+    margin-bottom: 44px;
+}
+.head_btn{
+    width: 163px;
+}
+.box_main{
+    margin-top: -500px;
+}
+.box{
+    margin-top: 200px;
+    margin-left: 20px;
+}
+.box_h2{
+    margin-top: 30px;
+    font-size: 36px;
+    width: 384px;
+    height: 100px;
+}
+.box_p{
+    font-size: 20px;
+    margin-top: 30px;
+    width: 384px;
+    height: 100px;
+}
+.box_but{
+    background-color: #FF6838;
+    border: 1px solid #FF6838;
+    color: white;
+    width: 176px;
+    height: 58px;
+    font-size: 20px;
+    border-radius: 30px 30px 0px 30px;
+    margin-top: 30px;
+}
+.box_mini{
+    margin-left: 800px;
+    margin-top: -600px;
+}
+.box_h1{
+    margin-top: 200px;
+    margin-left: 600px;
+}
+.container_menu{
+    display: flex;
+    gap: 50px;
+    margin-top: -150px;
+    margin-left: 150px;
+    margin-left: 20px;
+}
+.p{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.box_{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.box__img{
+    margin-left: 800px;
+}
+.box__h3{
+    margin-top: -300px;
+    font-size: 36px;
+    width: 454px;
+    height: 50px;
+}
+.box__div{
+    font-size: 20px;
+    width: 538px;
+    height: 94px;
+    margin-top: 10px;
+    
+}
